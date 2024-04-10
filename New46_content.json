@@ -1,0 +1,64 @@
+{
+    "repoContent": {
+        "name": "Hello-World",
+        "description": "This is your first repository",
+        "homepage": "https://github.com",
+        "private": false,
+        "has_issues": true,
+        "has_projects": true,
+        "has_wiki": true
+    },
+    "issueContent": {
+        "title": "Found a bug",
+        "body": "QA-Issue - This is description.",
+        "labels": [
+            {
+                "id": 6349018569,
+                "node_id": "LA_kwDOK8OfH88AAAABem5VyQ",
+                "url": "https://api.github.com/repos/HYCU-QA-ORG/QA_Repo/labels/bug",
+                "name": "bug",
+                "color": "d73a4a",
+                "default": true,
+                "description": "Something isn't working"
+            },
+            {
+                "id": 6349377566,
+                "node_id": "LA_kwDOK8OfH88AAAABenPQHg",
+                "url": "https://api.github.com/repos/HYCU-QA-ORG/QA_Repo/labels/B1",
+                "name": "B1",
+                "color": "658C88",
+                "default": false,
+                "description": "Something isn't working"
+            }
+        ],
+        "milestone": 1},
+    "commentContent":{
+        "body":"Me too"
+    },
+    "assigneeContent":{
+        "assignees":["lovish1997"]
+    },
+    "milestoneContent":
+        {
+            "title": "v1.0",
+            "state": "open",
+            "description": "Tracking milestone for version 1.0",
+            "due_on": "2012-10-09T23:39:01Z"
+        },
+    "releasesContent":{
+        "tag_name": "QA_Tag",
+        "target_commitish": "main",
+        "name": "QA_Release",
+        "body": "QA-Description of the release",
+        "draft": false,
+        "prerelease": false,
+        "generate_release_notes": false
+    },
+    "pullRequestContent":{
+        "title": "PullRequest_",
+        "body": "Please pull these awesome changes in!",
+        "head": "b2",
+        "base": "main"
+    }
+    
+}
